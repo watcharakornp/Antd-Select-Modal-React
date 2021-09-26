@@ -1,0 +1,70 @@
+.ant-modal-content {
+  border-radius: 8px;
+}
+
+.ant-modal-content > div.ant-modal-header {
+  border-radius: 8px 8px 0 0;
+  border: 1px solid transparent;
+  padding-bottom: 0.5em;
+}
+
+.ant-modal-content > div.ant-modal-body {
+  padding-top: 0.5em;
+}
+
+.ant-modal-content > div.ant-modal-footer {
+  border-radius: 8px 8px 0 0;
+  border: 1px solid transparent;
+  padding-top: 0.5em;
+}
+
+#table__modal
+  > div.ant-table-container
+  > div.ant-table-content
+  > table
+  > thead.ant-table-thead
+  tr
+  > th.ant-table-cell {
+  background-color: #3760b1;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 6px;
+}
+
+div.ant-modal-footer {
+  text-align: left;
+}
+
+div.ant-modal-footer > button {
+  border-radius: 8px;
+}
+
+div.ant-modal-footer > button:nth-of-type(2) {
+  background-color: #3760b1;
+  border-color: #ffffff;
+  float: right;
+}
+
+#table__modal
+  > div.ant-table-container
+  > div.ant-table-content
+  > table
+  > tbody.ant-table-tbody
+  tr:hover
+  td {
+  background-color: #e5f3ff !important;
+}
+
+#table__modal
+  > div.ant-table-container
+  > div.ant-table-content
+  > table
+  > tbody.ant-table-tbody
+  tr
+  > td.ant-table-cell {
+  padding: 5px 15px;
+}
+
+#rcDialogTitle32 {
+  font-weight: 800;
+}
